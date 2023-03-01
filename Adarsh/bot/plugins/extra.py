@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Made By [GreyMatter's Bot](https://t.me/GreyMatter_Bots)",
+                    text="I am Made By [Saikat](https://t.me/AnnihilusOP)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Owner💻", url=f"https://t.me/GreyMatter_Owner")
+                                InlineKeyboardButton("Owner💻", url=f"https://t.me/AnnihilusOP")
                             ]
                         ]
                     ),
@@ -30,19 +30,19 @@ async def maintainers(b,m):
                     disable_web_page_preview=True)
             
          
-@StreamBot.on_message(filters.regex("Subscribe ❤️"))
+@StreamBot.on_message(filters.regex("Bot Channel ❤️"))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<B>HERE'S THE SUBSCRIBE LINK</B>",
+                    text="<B>HERE'S THE BOT CHANNEL'S LINK</B>",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Subscribe ❤️", url=f"https://youtube.com/@GreyMattersYT")
+                                InlineKeyboardButton("Bot Updates ❤️", url=f"https://telegram.dog/MoviZenXFlix")
                             ]
                         ]
                     ),
